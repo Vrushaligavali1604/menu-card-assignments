@@ -1,0 +1,230 @@
+.menu-wrapper{
+  
+  border: 0.1mm solid #B9BFC8;
+  border-radius: 10mm;
+  /*background: linear-gradient(50deg, #ffe96e 0%, #ffe96e 45%, #f6e6a3 85%);*/
+  background-blend-mode: multiply, multiply;
+  background: linear-gradient(white, #f8f8f8), url('https://img.freepik.com/free-vector/abstract-horizontal-grid-lines-graph-style-graphic-design_1017-39918.jpg');
+  background-size: cover;
+  width: 250mm;
+  height: 350mm;
+  left: auto;
+  top: auto;
+  margin-left: 10mm;
+  margin-top: 10mm;
+  position: absolute;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0mm 0mm 2.65mm rgba(0, 0, 0, 0.1);
+}
+
+.blue-rect{
+    width: 93mm;
+    position: relative;
+    height: 15mm;
+    top: 29mm;
+    background-color: #23789D;
+    left: 80mm;
+    z-index:2;
+    border-radius:10mm;
+}
+/* Header Styles */
+.menu-header {
+  color: #9c5716;
+  text-align: center;
+  font-family: 'Charm', cursive;
+  padding: 5pt;
+  margin-bottom: 1mm;
+}
+
+.menu-header h1 {
+
+    color: white;
+    margin: 0;
+    /* font-style: italic; */
+    font-size: 13mm;
+    font-weight: bolder;
+    position: absolute;
+    top: 26mm;
+    left: 84mm;
+    font-family: 'Courier New', Courier, monospace;
+    z-index:2;
+}
+
+.menu-header h2 {
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  font-family:  Impact, Bebas Neue, or Anton;
+  font-size: 23mm;
+  position: absolute;
+    top: 20mm;
+    left: 63mm;
+}
+/*.restaurant-discription:before{
+  content:"";
+  width: 28mm;
+  height: 1.5mm;
+  margin-left: -32mm;
+  margin-top: 11mm;
+  background-color: black;
+  position: absolute;
+
+}
+.restaurant-discription:after{
+  content:"";
+  width: 28mm;
+  height: 1.5mm;
+  margin-left: 2mm;
+  margin-top: 11mm;
+  background-color: black;
+  position: absolute;
+
+}*/
+.cataName {
+  padding: 10mm;
+  font-size: 10mm;
+}
+
+.category-name {
+
+  text-align: center;
+  color:black;
+  font-size: 15mm;
+  position: absolute;
+  left: 20mm;
+  top: 79mm;
+  font-weight:bold;
+  font-family: system-ui;
+  text-transform: uppercase;
+}
+
+.special-item {
+  font-size: 5.5mm;
+  font-family: 'Cutive', sans-serif;
+  color: black;
+  text-align: justify;
+  padding-bottom: 2mm;
+  position: absolute;
+  left: 20mm;
+  top: 113mm;
+}
+.special-item-price{
+  font-size:5.5mm;
+  display: flex;
+  margin-bottom: 4mm;
+  margin-left: 90mm;
+  margin-top: -8mm;
+}
+
+.subcategory-name {
+  text-align: center;
+  font-size: 15mm;
+  color:black;
+  position: absolute;
+  right: 20mm;
+  bottom: 110mm;
+  font-weight:bold;
+  font-family:system-ui;
+  text-transform: uppercase;
+}
+
+
+.cocktail-item {
+  font-size: 5.5mm;
+  font-family: 'Cutive', sans-serif;
+  color: black;
+  position: absolute;
+  right: 20mm;
+  bottom :54mm;
+  text-align: justify;
+
+}
+
+.cocktail-item-price{
+  font-size:5.5mm;
+  display: flex;
+  margin-bottom: 4mm;
+  margin-left: 80mm;
+  margin-top: -8mm;
+}
+
+.img1 {
+  
+  height: 380mm;
+    width: 270mm;
+    position: absolute;
+    left: -10mm;
+    top: -10mm;
+}
+
+.img2 {
+  height: 124mm;
+    width: 79mm;
+    position: absolute;
+    left: 144mm;
+    top: 90mm;
+}
+
+.img3 {
+  height: 156mm;
+    width: 93mm;
+    position: absolute;
+    bottom: 32mm;
+    left: 21mm;
+}
+
+
+/*.img4 {
+  height: 40mm;
+  width: 70mm;
+  position: absolute;
+  bottom: 1mm;
+  left: 0.1mm;
+}
+
+.img5 {
+  position: absolute;
+  left: 60mm;
+  top: 60mm;
+  height: 50mm;
+}
+
+.img6 {
+  position: absolute;
+  left: 65mm;
+  top: 110mm;
+  height: 50mm;
+}
+
+.img7 {
+  position: absolute;
+  left: 65mm;
+  top: 160mm;
+  height: 50mm;
+}
+
+.img8 {
+  position: absolute;
+  left: 150mm;
+  bottom: 90mm;
+  height: 40mm;
+}
+
+.img9 {
+  position: absolute;
+  left: 140mm;
+  bottom: 45mm;
+  height: 40mm;
+}
+
+.img10 {
+  position: absolute;
+  left: 130mm;
+  bottom: 2mm;
+  height: 40mm;
+}*/
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Cutive&family=Estonia&family=Great+Vibes&family=Metal&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+
+  <title>Menu Card</title>
+</head>
+<body>
+  <!-- Usage of menu-component -->
+  <menu-component
+    config='{
+      "wrapperClass": "menu-wrapper",
+      "backgroundClass":"menu-background",
+      "rectClass":"blue-rect",
+      "contentClass": "menu-content",
+      "headerClass": "menu-header",
+      "restaurantClass": "restaurant-name",
+      "discriptionClass": "restaurant-discription",
+      "cataName": "cataName",
+      "categoryClass": "category-name",
+      "subcategoryClass": "subcategory-name"
+    }'
+    data='{
+      "images": [
+      { "src": "img/37_cleanup.png", "class": "img1", "alt": "" },
+      { "src": "img/Coffe-mug1.png", "class": "img2", "alt": "" },
+      { "src": "img/glass1 - Copy.png", "class": "img3", "alt": "" }
+      ],
+      "restaurant": "Shodwe Cafe",
+      "discription": "Drink Menu",
+      "category": "Coffee",
+      "subcategory": "Non Coffee",
+      "specialitems": [
+        { "name": "Cafe Latte", "price": "$15" },
+        { "name": "Cappucino", "price": "$15" },
+        { "name": "Machacino", "price": "$15" },
+        { "name": "Americano", "price": "$15" }
+      ],
+      "cocktailitems": [
+        { "name": "Chocolate Ice", "price": "$15" },
+        { "name": "Red Velvet", "price": "$15" },
+        { "name": "Blue Mojito", "price": "$15" },
+        { "name": "Hazelnut Latte", "price": "$15" }
+      ]
+    }'>
+  </menu-component>
+
+  <script src="script.js"></script>
+</body>
+</html>
